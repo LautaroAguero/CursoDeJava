@@ -50,7 +50,7 @@ public class Carrera implements Informacion{
         for (int i = 0; i < materias.size(); i++) {
             Materia e = materias.get(i);
             if (e.getNombre().equals(nombre)){
-                System.out.println("La materia "+e.getNombre()+" se encuentra dentro de la materia");
+                System.out.println("La materia "+e.getNombre()+" se encuentra dentro de la Carrera");
             }
         }
     }
